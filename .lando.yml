@@ -1,0 +1,5 @@
+name: camp-anawanna
+recipe: drupal8
+config:
+  database: mysql
+  webroot: web/
