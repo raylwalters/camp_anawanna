@@ -1,0 +1,22 @@
+uuid: 08936e14-3280-44cd-8dde-db2fe2cea9c2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - react_simple
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: react_simple_content
+theme: react_simple
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

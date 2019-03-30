@@ -1,0 +1,22 @@
+uuid: 24cb737d-2193-4aea-ae4f-3aba96a6a6e6
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - react_simple
+_core:
+  default_config_hash: za-39d5WDUg6XvbyqSnuVYEeq6QM4qKJxW8MnoAha5A
+id: react_simple_search
+theme: react_simple
+region: sidebar_first
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 75c06e6a-e996-44ff-9892-6452a7e3acba
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - react_simple
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: react_simple_help
+theme: react_simple
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

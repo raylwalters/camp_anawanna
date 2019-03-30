@@ -1,0 +1,20 @@
+uuid: 7e1c46be-13de-47e3-a9b0-ae3a582ca8fb
+langcode: en
+status: true
+dependencies:
+  theme:
+    - react_simple
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: react_simple_page_title
+theme: react_simple
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
