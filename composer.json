@@ -22,6 +22,7 @@
         "drupal-composer/drupal-scaffold": "^2.5",
         "drupal/adaptivetheme": "^3.1",
         "drupal/admin_toolbar": "^1.26",
+        "drupal/at_tools": "^3.2",
         "drupal/console": "^1.0.2",
         "drupal/core": "^8.6.0",
         "drupal/devel": "^2.0",
