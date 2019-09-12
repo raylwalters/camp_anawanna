@@ -1,0 +1,22 @@
+uuid: 824484c9-944c-427f-a1de-4c467bb06807
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - adaptive_base_theme
+_core:
+  default_config_hash: rhCCU8RjbEi1gDE83GSw_U6NOreJ-3bDgTKsileyb2k
+id: adaptive_base_theme_login
+theme: adaptive_base_theme
+region: sidebar_second
+weight: 20
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

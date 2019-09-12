@@ -1,0 +1,27 @@
+uuid: dfe4c183-d721-401a-86be-ae6a2ec89e8f
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - adaptive_base_theme
+_core:
+  default_config_hash: gG_X2SM7RLYt2yOgvKmlcyQU9iressbPd1bB9hwJHS4
+id: adaptive_base_theme_account_menu
+theme: adaptive_base_theme
+region: leaderboard
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User menu'
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

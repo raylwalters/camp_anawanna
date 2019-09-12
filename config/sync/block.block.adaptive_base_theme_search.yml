@@ -1,0 +1,22 @@
+uuid: 1604d317-042c-4114-b03d-47684c5a359b
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - adaptive_base_theme
+_core:
+  default_config_hash: 8HLObsPEEUfCD4EcO54AH7NTkFRTzUly518dUrTeQAQ
+id: adaptive_base_theme_search
+theme: adaptive_base_theme
+region: sidebar_second
+weight: 0
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: '0'
+visibility: {  }

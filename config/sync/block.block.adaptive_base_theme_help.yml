@@ -1,0 +1,22 @@
+uuid: 4d7abbd8-93f6-4493-a587-e5cb33140b9e
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - adaptive_base_theme
+_core:
+  default_config_hash: VrbUNpGfMQ_uFxT9RbQH5KFX93EQus_jfpseLGyNOGM
+id: adaptive_base_theme_help
+theme: adaptive_base_theme
+region: content
+weight: 2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

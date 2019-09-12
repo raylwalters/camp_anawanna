@@ -1,0 +1,27 @@
+uuid: 4d4bc4a5-f557-452c-b7db-5240e4a0b900
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - adaptive_base_theme
+_core:
+  default_config_hash: IALWDH3_7vS6DDDRvsjU83y-IvKTvbts-Nv-Xz8Uvoo
+id: adaptive_base_theme_main_menu
+theme: adaptive_base_theme
+region: navbar
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main menu'
+  provider: system
+  label_display: 1
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
