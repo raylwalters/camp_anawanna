@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - adaptive_base_theme
+id: adaptive_base_theme_login
+theme: adaptive_base_theme
+region: sidebar_second
+weight: 20
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }
