@@ -1,0 +1,13 @@
+palette:
+  base: '#00274C'
+  text: '#0066cc'
+  link: '#FFCB0B'
+logo: 'public://color/adaptive_base_theme-19910835/logo.svg'
+stylesheets:
+  - 'public://color/adaptive_base_theme-19910835/color.css'
+  - 'public://color/adaptive_base_theme-19910835/tabs.css'
+files:
+  - 'public://color/adaptive_base_theme-19910835/logo.svg'
+  - 'public://color/adaptive_base_theme-19910835/logo.png'
+  - 'public://color/adaptive_base_theme-19910835/color.css'
+  - 'public://color/adaptive_base_theme-19910835/tabs.css'

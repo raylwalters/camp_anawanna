@@ -3,17 +3,17 @@ settings:
   enable_extensions: 1
   enable_responsive_menus: 1
   enable_images: 0
-  enable_touch_icons: 0
-  enable_fonts: 0
-  enable_titles: 0
+  enable_touch_icons: 1
+  enable_fonts: 1
+  enable_titles: 1
   enable_libraries: 0
-  enable_mobile_blocks: 0
-  enable_slideshows: 0
-  enable_shortcodes: 0
-  enable_custom_css: 0
-  enable_markup_overrides: 0
-  enable_devel: 0
-  enable_legacy_browsers: 0
+  enable_mobile_blocks: 1
+  enable_slideshows: 1
+  enable_shortcodes: 1
+  enable_custom_css: 1
+  enable_markup_overrides: 1
+  enable_devel: 1
+  enable_legacy_browsers: 1
   skip_link_target: block-adaptive_base_theme-content
   suggestions:
     page: page
@@ -114,10 +114,10 @@ settings:
   page_mobile_footer_hide: 0
   enable_backups: 0
   responsive_menu_block: adaptive_base_theme_main_menu
-  responsive_menu_default_style: slidedown
-  responsive_menu_responsive_style: dropmenu
+  responsive_menu_default_style: overlay
+  responsive_menu_responsive_style: tiles
   responsive_menu_breakpoint_group: at_core.simple
-  responsive_menu_breakpoint: 'all and (min-width: 60.063em)'
+  responsive_menu_breakpoint: 'all and (min-width: 60.0625em)'
   icon_path_default: images/touch-icons/Icon-60.png
   apple_touch_icon_path_iphone_retina: images/touch-icons/Icon-60-2x.png
   apple_touch_icon_path_ipad: images/touch-icons/Icon-76.png
@@ -261,8 +261,8 @@ settings:
   horizontal_login_block: 0
   login_block_remove_links: 0
   comments_hide_title: 0
-  views_hide_feedicon: 0
-  attribution_toggle: 1
+  views_hide_feedicon: 1
+  attribution_toggle: 0
   font_use_google_fonts: false
   font_use_typekit: false
   font_websafe: "Verdana, Geneva, sans-serif;\r\n\"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n\"Segoe UI\", Segoe, Geneva, Tahoma, sans-serif;\r\nImpact, \"Helvetica Inserat\", \"Arial Black\", sans-serif;\r\nGeorgia, Utopia, Palatino, \"Palatino Linotype\", serif;\r\n\"Times New Roman\", Times, serif;\r\n\"Courier New\", Courier, monospace;\r\nsans-serif;\r\nserif;"
@@ -420,8 +420,8 @@ settings:
   titles_h6_alignment: left
   titles_h6_letterspacing: ''
   slideshow_count: '1'
-  slideshow_0_enable: 0
-  slideshow_0_animation: slide
+  slideshow_0_enable: 1
+  slideshow_0_animation: fade
   slideshow_0_direction: horizontal
   slideshow_0_smoothheight: 0
   slideshow_0_slideshowspeed: '4000'
@@ -456,7 +456,7 @@ settings:
   enable_ckeditor: 1
   mimic_enabled: 1
   click_menus_enabled: 1
-  live_reload_port: 35729
+  live_reload_port: '35729'
   png_logo: 0
   breadcrumb_label_value: 'You are here:'
   breadcrumb_title: 0
@@ -481,6 +481,192 @@ settings:
   max_width_unit_subfeatures: em
   max_width_value_footer: ''
   max_width_unit_footer: em
+  font_google_names: ''
+  font_typekit_names: ''
+  font_local: ''
+  font_local_names: ''
+  font_image_captions: none
+  font_websafe_image_captions: '0'
+  font_size_image_captions: ''
+  font_smoothing_image_captions: 0
+  font_slideshow_captions: none
+  font_websafe_slideshow_captions: '0'
+  font_size_slideshow_captions: ''
+  font_smoothing_slideshow_captions: 0
+  font_formitems: none
+  font_websafe_formitems: '0'
+  font_size_formitems: ''
+  font_smoothing_formitems: 0
+  font_tables: none
+  font_websafe_tables: '0'
+  font_size_tables: ''
+  font_smoothing_tables: 0
+  font_blockquotes: none
+  font_websafe_blockquotes: '0'
+  font_size_blockquotes: ''
+  font_smoothing_blockquotes: 0
+  font_code: none
+  font_websafe_code: '0'
+  font_size_code: ''
+  font_smoothing_code: 0
+  page_classes_body: ''
+  page_classes_page: ''
+  page_classes_row_wrapper_leaderboard: ''
+  page_classes_row_container_leaderboard: ''
+  page_classes_row_wrapper_header: ''
+  page_classes_row_container_header: ''
+  page_classes_row_wrapper_navbar: ''
+  page_classes_row_container_navbar: ''
+  page_classes_row_wrapper_highlighted: ''
+  page_classes_row_container_highlighted: ''
+  page_classes_row_wrapper_features: ''
+  page_classes_row_container_features: ''
+  page_classes_row_wrapper_content_prefix: ''
+  page_classes_row_container_content_prefix: ''
+  page_classes_row_wrapper_main: ''
+  page_classes_row_container_main: ''
+  page_classes_row_wrapper_content_suffix: ''
+  page_classes_row_container_content_suffix: ''
+  page_classes_row_wrapper_subfeatures: ''
+  page_classes_row_container_subfeatures: ''
+  page_classes_row_wrapper_footer: ''
+  page_classes_row_container_footer: ''
+  page_classes_region_leaderboard: ''
+  page_classes_region_header_first: ''
+  page_classes_region_header_second: ''
+  page_classes_region_navbar: ''
+  page_classes_region_highlighted: ''
+  page_classes_region_features_first: ''
+  page_classes_region_features_second: ''
+  page_classes_region_features_third: ''
+  page_classes_region_content_prefix: ''
+  page_classes_region_content: ''
+  page_classes_region_sidebar_first: ''
+  page_classes_region_sidebar_second: ''
+  page_classes_region_content_suffix: ''
+  page_classes_region_subfeatures_first: ''
+  page_classes_region_subfeatures_second: ''
+  page_classes_region_subfeatures_third: ''
+  page_classes_region_subfeatures_fourth: ''
+  page_classes_region_footer: ''
+  block_classes_system_menu_block_account: ''
+  block_classes_system_branding_block: ''
+  block_classes_system_breadcrumb_block: ''
+  block_classes_system_main_block: ''
+  block_classes_system_menu_block_footer: ''
+  block_classes_help_block: ''
+  block_classes_local_actions_block: ''
+  block_classes_local_tasks_block: ''
+  block_classes_user_login_block: ''
+  block_classes_system_menu_block_main: ''
+  block_classes_system_messages_block: ''
+  block_classes_page_title_block: ''
+  block_classes_search_form_block: ''
+  block_classes_system_menu_block_tools: ''
+  nodetype_classes_article: ''
+  nodetype_classes_page: ''
+  commenttype_classes_comment: ''
+  shortcodes_textalign_enable: 0
+  shortcodes_position_enable: 0
+  shortcodes_layout_columns_enable: 0
+  shortcodes_float_region_blocks_enable: 0
+  shortcodes_whitespace_enable: 0
+  shortcodes_image_styles_enable: 0
+  shortcodes_grid_blocks_enable: 0
+  shortcodes_rounded_corners_enable: 0
+  shortcodes_menu_bullets_enable: 0
+  shortcodes_animate_enable: 0
+  mobile_block_show_bpwide_system_menu_block_account: 0
+  mobile_block_hide_bpwide_system_menu_block_account: 0
+  mobile_block_show_bpwide_system_branding_block: 0
+  mobile_block_hide_bpwide_system_branding_block: 0
+  mobile_block_show_bpwide_system_breadcrumb_block: 0
+  mobile_block_hide_bpwide_system_breadcrumb_block: 0
+  mobile_block_show_bpwide_system_main_block: 0
+  mobile_block_hide_bpwide_system_main_block: 0
+  mobile_block_show_bpwide_system_menu_block_footer: 0
+  mobile_block_hide_bpwide_system_menu_block_footer: 0
+  mobile_block_show_bpwide_help_block: 0
+  mobile_block_hide_bpwide_help_block: 0
+  mobile_block_show_bpwide_local_actions_block: 0
+  mobile_block_hide_bpwide_local_actions_block: 0
+  mobile_block_show_bpwide_local_tasks_block: 0
+  mobile_block_hide_bpwide_local_tasks_block: 0
+  mobile_block_show_bpwide_user_login_block: 0
+  mobile_block_hide_bpwide_user_login_block: 0
+  mobile_block_show_bpwide_system_menu_block_main: 0
+  mobile_block_hide_bpwide_system_menu_block_main: 0
+  mobile_block_show_bpwide_system_messages_block: 0
+  mobile_block_hide_bpwide_system_messages_block: 0
+  mobile_block_show_bpwide_page_title_block: 0
+  mobile_block_hide_bpwide_page_title_block: 0
+  mobile_block_show_bpwide_search_form_block: 0
+  mobile_block_hide_bpwide_search_form_block: 0
+  mobile_block_show_bpwide_system_menu_block_tools: 0
+  mobile_block_hide_bpwide_system_menu_block_tools: 0
+  mobile_block_show_bptablet-isolate_system_menu_block_account: 0
+  mobile_block_hide_bptablet-isolate_system_menu_block_account: 0
+  mobile_block_show_bptablet-isolate_system_branding_block: 0
+  mobile_block_hide_bptablet-isolate_system_branding_block: 0
+  mobile_block_show_bptablet-isolate_system_breadcrumb_block: 0
+  mobile_block_hide_bptablet-isolate_system_breadcrumb_block: 0
+  mobile_block_show_bptablet-isolate_system_main_block: 0
+  mobile_block_hide_bptablet-isolate_system_main_block: 0
+  mobile_block_show_bptablet-isolate_system_menu_block_footer: 0
+  mobile_block_hide_bptablet-isolate_system_menu_block_footer: 0
+  mobile_block_show_bptablet-isolate_help_block: 0
+  mobile_block_hide_bptablet-isolate_help_block: 0
+  mobile_block_show_bptablet-isolate_local_actions_block: 0
+  mobile_block_hide_bptablet-isolate_local_actions_block: 0
+  mobile_block_show_bptablet-isolate_local_tasks_block: 0
+  mobile_block_hide_bptablet-isolate_local_tasks_block: 0
+  mobile_block_show_bptablet-isolate_user_login_block: 0
+  mobile_block_hide_bptablet-isolate_user_login_block: 0
+  mobile_block_show_bptablet-isolate_system_menu_block_main: 0
+  mobile_block_hide_bptablet-isolate_system_menu_block_main: 0
+  mobile_block_show_bptablet-isolate_system_messages_block: 0
+  mobile_block_hide_bptablet-isolate_system_messages_block: 0
+  mobile_block_show_bptablet-isolate_page_title_block: 0
+  mobile_block_hide_bptablet-isolate_page_title_block: 0
+  mobile_block_show_bptablet-isolate_search_form_block: 0
+  mobile_block_hide_bptablet-isolate_search_form_block: 0
+  mobile_block_show_bptablet-isolate_system_menu_block_tools: 0
+  mobile_block_hide_bptablet-isolate_system_menu_block_tools: 0
+  mobile_block_show_bpmobile_system_menu_block_account: 0
+  mobile_block_hide_bpmobile_system_menu_block_account: 0
+  mobile_block_show_bpmobile_system_branding_block: 0
+  mobile_block_hide_bpmobile_system_branding_block: 0
+  mobile_block_show_bpmobile_system_breadcrumb_block: 0
+  mobile_block_hide_bpmobile_system_breadcrumb_block: 0
+  mobile_block_show_bpmobile_system_main_block: 0
+  mobile_block_hide_bpmobile_system_main_block: 0
+  mobile_block_show_bpmobile_system_menu_block_footer: 0
+  mobile_block_hide_bpmobile_system_menu_block_footer: 0
+  mobile_block_show_bpmobile_help_block: 0
+  mobile_block_hide_bpmobile_help_block: 0
+  mobile_block_show_bpmobile_local_actions_block: 0
+  mobile_block_hide_bpmobile_local_actions_block: 0
+  mobile_block_show_bpmobile_local_tasks_block: 0
+  mobile_block_hide_bpmobile_local_tasks_block: 0
+  mobile_block_show_bpmobile_user_login_block: 0
+  mobile_block_hide_bpmobile_user_login_block: 0
+  mobile_block_show_bpmobile_system_menu_block_main: 0
+  mobile_block_hide_bpmobile_system_menu_block_main: 0
+  mobile_block_show_bpmobile_system_messages_block: 0
+  mobile_block_hide_bpmobile_system_messages_block: 0
+  mobile_block_show_bpmobile_page_title_block: 0
+  mobile_block_hide_bpmobile_page_title_block: 0
+  mobile_block_show_bpmobile_search_form_block: 0
+  mobile_block_hide_bpmobile_search_form_block: 0
+  mobile_block_show_bpmobile_system_menu_block_tools: 0
+  mobile_block_hide_bpmobile_system_menu_block_tools: 0
+  slideshow_0_slideshow_class: .adaptive-base-theme-slideshow-0
+  custom_css: '/* Custom CSS */'
+  show_page_suggestions: 0
+  show_window_size: 0
+  enable_live_reload: 0
+  nuke_toolbar: 0
+  legacy_browser_polyfills: 0
 features:
   logo: 1
   node_user_picture: 1
@@ -488,10 +674,593 @@ features:
   comment_user_verification: 1
   favicon: 1
 logo:
-  use_default: 1
+  use_default: 0
   path: ''
 favicon:
-  use_default: 1
+  use_default: 0
   path: ''
 _core:
   default_config_hash: ydsIOowr8ocAqOZsmVqELT6DOqF-0bINfGdWPTve6WU
+settings_generated_files_path: themes/adaptive_base_theme/styles/css/generated
+list_info: "name: 'Adaptive base theme'\nversion: 8.x-1.0\ntype: theme\n'base theme': at_core\n'base theme original': 8.x-3.1\n'subtheme type': adaptive_subtheme\nlayout: page-layout\ndescription: 'Base: at_core (8.x-3.1) <br>Generated: Wed 11th, Sep, 2019 - 21:45'\ncore: 8.x\nregions:\n  leaderboard: Leaderboard\n  header_first: 'Header first'\n  header_second: 'Header second'\n  navbar: Navbar\n  highlighted: Highlighted\n  features_first: 'Features first'\n  features_second: 'Features second'\n  features_third: 'Features third'\n  content_prefix: 'Content prefix'\n  content: 'Main content'\n  sidebar_first: 'Sidebar first'\n  sidebar_second: 'Sidebar second'\n  content_suffix: 'Content suffix'\n  subfeatures_first: 'Sub-features first'\n  subfeatures_second: 'Sub-features second'\n  subfeatures_third: 'Sub-features third'\n  subfeatures_fourth: 'Sub-features fourth'\n  footer: Footer\n  page_top: 'Page top'\n  page_bottom: 'Page bottom'\ntags: 'adaptivetheme sub-theme'\nlibraries-extend:\n  quickedit/quickedit:\n    - adaptive_base_theme/quickedit\nstylesheets-remove:\n  - '@stable/css/node/node.preview.css'\n  - '@stable/css/node/node.module.css'\n  - '@stable/css/views/views.module.css'\n  - '@stable/css/system/components/tablesort.module.css'\n  - '@classy/css/components/file.css'\nfeatures:\n  - logo\n  - favicon\n  - node_user_picture\n  - comment_user_picture\n  - comment_user_verification\ncore_incompatible: false\nmtime: 1568252717\nengine: twig\nscreenshot: themes/adaptive_base_theme/screenshot.png\nphp: 5.5.9\nlibraries: {  }\nlibraries_extend: {  }\nlibraries_override: {  }\ndependencies:\n  - at_core\nregions_hidden:\n  - page_top\n  - page_bottom\n"
+settings_extensions_form_open: 1
+settings_enable_extensions: 1
+settings_enable_responsive_menus: 1
+settings_enable_images: 0
+settings_enable_touch_icons: 1
+settings_enable_fonts: 1
+settings_enable_titles: 1
+settings_enable_shortcodes: 1
+settings_enable_slideshows: 1
+settings_enable_mobile_blocks: 1
+settings_enable_custom_css: 1
+settings_enable_ckeditor: 1
+settings_enable_devel: 1
+settings_enable_legacy_browsers: 1
+settings_enable_markup_overrides: 1
+settings_responsive_menu_block: adaptive_base_theme_main_menu
+settings_responsive_menu_breakpoint_group: at_core.simple
+settings_responsive_menu_breakpoint: 'all and (min-width: 60.0625em)'
+settings_responsive_menu_default_style: slidedown
+settings_responsive_menu_responsive_style: slidedown
+settings_click_menus_enabled: 1
+settings_font_websafe: "Verdana, Geneva, sans-serif;\r\n\"Helvetica Neue\", Helvetica, Arial, sans-serif;\r\n\"Segoe UI\", Segoe, Geneva, Tahoma, sans-serif;\r\nImpact, \"Helvetica Inserat\", \"Arial Black\", sans-serif;\r\nGeorgia, Utopia, Palatino, \"Palatino Linotype\", serif;\r\n\"Times New Roman\", Times, serif;\r\n\"Courier New\", Courier, monospace;\r\nsans-serif;\r\nserif;"
+settings_font_google: ''
+settings_font_google_names: ''
+settings_font_typekit: ''
+settings_font_typekit_names: ''
+settings_font_local: ''
+settings_font_local_names: ''
+settings_font_fallback: sans_serif
+settings_font_line_height_multiplier_default: '1.5'
+settings_font_line_height_multiplier_large: '1.125'
+settings_font_base: none
+settings_font_websafe_base: '0'
+settings_font_size_base: ''
+settings_font_smoothing_base: 0
+settings_font_sitename: none
+settings_font_websafe_sitename: '0'
+settings_font_size_sitename: ''
+settings_font_smoothing_sitename: 0
+settings_font_siteslogan: none
+settings_font_websafe_siteslogan: '0'
+settings_font_size_siteslogan: ''
+settings_font_smoothing_siteslogan: 0
+settings_font_pagetitle: none
+settings_font_websafe_pagetitle: '0'
+settings_font_size_pagetitle: ''
+settings_font_smoothing_pagetitle: 0
+settings_font_nodetitle: none
+settings_font_websafe_nodetitle: '0'
+settings_font_size_nodetitle: ''
+settings_font_smoothing_nodetitle: 0
+settings_font_nodetitle_teaser: none
+settings_font_websafe_nodetitle_teaser: '0'
+settings_font_size_nodetitle_teaser: ''
+settings_font_smoothing_nodetitle_teaser: 0
+settings_font_commenttitle: none
+settings_font_websafe_commenttitle: '0'
+settings_font_size_commenttitle: ''
+settings_font_smoothing_commenttitle: 0
+settings_font_blocktitle: none
+settings_font_websafe_blocktitle: '0'
+settings_font_size_blocktitle: ''
+settings_font_smoothing_blocktitle: 0
+settings_font_links: none
+settings_font_websafe_links: '0'
+settings_font_size_links: ''
+settings_font_smoothing_links: 0
+settings_font_menus: none
+settings_font_websafe_menus: '0'
+settings_font_size_menus: ''
+settings_font_smoothing_menus: 0
+settings_font_responsivemenu: none
+settings_font_websafe_responsivemenu: '0'
+settings_font_size_responsivemenu: ''
+settings_font_smoothing_responsivemenu: 0
+settings_font_responsivemenu_toggle: none
+settings_font_websafe_responsivemenu_toggle: '0'
+settings_font_size_responsivemenu_toggle: ''
+settings_font_smoothing_responsivemenu_toggle: 0
+settings_font_image_captions: none
+settings_font_websafe_image_captions: '0'
+settings_font_size_image_captions: ''
+settings_font_smoothing_image_captions: 0
+settings_font_slideshow_captions: none
+settings_font_websafe_slideshow_captions: '0'
+settings_font_size_slideshow_captions: ''
+settings_font_smoothing_slideshow_captions: 0
+settings_font_tabs: none
+settings_font_websafe_tabs: '0'
+settings_font_size_tabs: ''
+settings_font_smoothing_tabs: 0
+settings_font_breadcrumbs: none
+settings_font_websafe_breadcrumbs: '0'
+settings_font_size_breadcrumbs: ''
+settings_font_smoothing_breadcrumbs: 0
+settings_font_h1h4: none
+settings_font_websafe_h1h4: '0'
+settings_font_smoothing_h1h4: 0
+settings_font_h5h6: none
+settings_font_websafe_h5h6: '0'
+settings_font_smoothing_h5h6: 0
+settings_font_h1: none
+settings_font_websafe_h1: '0'
+settings_font_size_h1: ''
+settings_font_smoothing_h1: 0
+settings_font_h2: none
+settings_font_websafe_h2: '0'
+settings_font_size_h2: ''
+settings_font_smoothing_h2: 0
+settings_font_h3: none
+settings_font_websafe_h3: '0'
+settings_font_size_h3: ''
+settings_font_smoothing_h3: 0
+settings_font_h4: none
+settings_font_websafe_h4: '0'
+settings_font_size_h4: ''
+settings_font_smoothing_h4: 0
+settings_font_h5: none
+settings_font_websafe_h5: '0'
+settings_font_size_h5: ''
+settings_font_smoothing_h5: 0
+settings_font_h6: none
+settings_font_websafe_h6: '0'
+settings_font_size_h6: ''
+settings_font_smoothing_h6: 0
+settings_font_formitems: none
+settings_font_websafe_formitems: '0'
+settings_font_size_formitems: ''
+settings_font_smoothing_formitems: 0
+settings_font_buttons: none
+settings_font_websafe_buttons: '0'
+settings_font_size_buttons: ''
+settings_font_smoothing_buttons: 0
+settings_font_tables: none
+settings_font_websafe_tables: '0'
+settings_font_size_tables: ''
+settings_font_smoothing_tables: 0
+settings_font_blockquotes: none
+settings_font_websafe_blockquotes: '0'
+settings_font_size_blockquotes: ''
+settings_font_smoothing_blockquotes: 0
+settings_font_code: none
+settings_font_websafe_code: '0'
+settings_font_size_code: ''
+settings_font_smoothing_code: 0
+settings_font_custom_selectors: none
+settings_font_websafe_custom_selectors: '0'
+settings_font_size_custom_selectors: ''
+settings_font_smoothing_custom_selectors: 0
+settings_custom_selectors: ''
+settings_titles_sitename_case: none
+settings_titles_sitename_weight: '400'
+settings_titles_sitename_alignment: left
+settings_titles_sitename_letterspacing: ''
+settings_titles_siteslogan_case: none
+settings_titles_siteslogan_weight: '400'
+settings_titles_siteslogan_alignment: left
+settings_titles_siteslogan_letterspacing: ''
+settings_titles_pagetitle_case: none
+settings_titles_pagetitle_weight: '400'
+settings_titles_pagetitle_alignment: left
+settings_titles_pagetitle_letterspacing: ''
+settings_titles_nodetitle_case: none
+settings_titles_nodetitle_weight: '400'
+settings_titles_nodetitle_alignment: left
+settings_titles_nodetitle_letterspacing: ''
+settings_titles_nodetitle_teaser_case: none
+settings_titles_nodetitle_teaser_weight: '400'
+settings_titles_nodetitle_teaser_alignment: left
+settings_titles_nodetitle_teaser_letterspacing: ''
+settings_titles_commenttitle_case: none
+settings_titles_commenttitle_weight: '400'
+settings_titles_commenttitle_alignment: left
+settings_titles_commenttitle_letterspacing: ''
+settings_titles_blocktitle_case: none
+settings_titles_blocktitle_weight: '400'
+settings_titles_blocktitle_alignment: left
+settings_titles_blocktitle_letterspacing: ''
+settings_titles_h1_case: none
+settings_titles_h1_weight: '400'
+settings_titles_h1_alignment: left
+settings_titles_h1_letterspacing: ''
+settings_titles_h2_case: none
+settings_titles_h2_weight: '400'
+settings_titles_h2_alignment: left
+settings_titles_h2_letterspacing: ''
+settings_titles_h3_case: none
+settings_titles_h3_weight: '400'
+settings_titles_h3_alignment: left
+settings_titles_h3_letterspacing: ''
+settings_titles_h4_case: none
+settings_titles_h4_weight: '600'
+settings_titles_h4_alignment: left
+settings_titles_h4_letterspacing: ''
+settings_titles_h5_case: none
+settings_titles_h5_weight: '400'
+settings_titles_h5_alignment: left
+settings_titles_h5_letterspacing: ''
+settings_titles_h6_case: none
+settings_titles_h6_weight: '600'
+settings_titles_h6_alignment: left
+settings_titles_h6_letterspacing: ''
+settings_icon_path_default: images/touch-icons/Icon-60.png
+settings_apple_touch_icon_path_iphone_retina: images/touch-icons/Icon-60-2x.png
+settings_apple_touch_icon_path_ipad_retina_3x: images/touch-icons/Icon-60-3x.png
+settings_apple_touch_icon_path_ipad: images/touch-icons/Icon-76.png
+settings_apple_touch_icon_path_ipad_retina: images/touch-icons/Icon-76-2x.png
+settings_apple_touch_icon_path_chrome_android: images/touch-icons/Icon-192x192.png
+settings_apple_touch_icon_precomposed: 0
+settings_page_classes_body: ''
+settings_page_classes_page: ''
+settings_page_classes_row_wrapper_leaderboard: ''
+settings_page_classes_row_container_leaderboard: ''
+settings_page_classes_row_wrapper_header: ''
+settings_page_classes_row_container_header: ''
+settings_page_classes_row_wrapper_navbar: ''
+settings_page_classes_row_container_navbar: ''
+settings_page_classes_row_wrapper_highlighted: ''
+settings_page_classes_row_container_highlighted: ''
+settings_page_classes_row_wrapper_features: ''
+settings_page_classes_row_container_features: ''
+settings_page_classes_row_wrapper_content_prefix: ''
+settings_page_classes_row_container_content_prefix: ''
+settings_page_classes_row_wrapper_main: ''
+settings_page_classes_row_container_main: ''
+settings_page_classes_row_wrapper_content_suffix: ''
+settings_page_classes_row_container_content_suffix: ''
+settings_page_classes_row_wrapper_subfeatures: ''
+settings_page_classes_row_container_subfeatures: ''
+settings_page_classes_row_wrapper_footer: ''
+settings_page_classes_row_container_footer: ''
+settings_page_classes_region_leaderboard: ''
+settings_page_classes_region_header_first: ''
+settings_page_classes_region_header_second: ''
+settings_page_classes_region_navbar: ''
+settings_page_classes_region_highlighted: ''
+settings_page_classes_region_features_first: ''
+settings_page_classes_region_features_second: ''
+settings_page_classes_region_features_third: ''
+settings_page_classes_region_content_prefix: ''
+settings_page_classes_region_content: ''
+settings_page_classes_region_sidebar_first: ''
+settings_page_classes_region_sidebar_second: ''
+settings_page_classes_region_content_suffix: ''
+settings_page_classes_region_subfeatures_first: ''
+settings_page_classes_region_subfeatures_second: ''
+settings_page_classes_region_subfeatures_third: ''
+settings_page_classes_region_subfeatures_fourth: ''
+settings_page_classes_region_footer: ''
+settings_block_classes_local_actions_block: ''
+settings_block_classes_local_tasks_block: ''
+settings_block_classes_help_block: ''
+settings_block_classes_search_form_block: ''
+settings_block_classes_system_branding_block: ''
+settings_block_classes_system_breadcrumb_block: ''
+settings_block_classes_system_main_block: ''
+settings_block_classes_system_messages_block: ''
+settings_block_classes_page_title_block: ''
+settings_block_classes_system_menu_block_account: ''
+settings_block_classes_system_menu_block_footer: ''
+settings_block_classes_system_menu_block_main: ''
+settings_block_classes_system_menu_block_tools: ''
+settings_block_classes_user_login_block: ''
+settings_nodetype_classes_article: ''
+settings_nodetype_classes_page: ''
+settings_commenttype_classes_comment: ''
+settings_shortcodes_textalign_enable: 0
+settings_shortcodes_position_enable: 0
+settings_shortcodes_layout_columns_enable: 0
+settings_shortcodes_float_region_blocks_enable: 0
+settings_shortcodes_whitespace_enable: 0
+settings_shortcodes_image_styles_enable: 0
+settings_shortcodes_grid_blocks_enable: 0
+settings_shortcodes_rounded_corners_enable: 0
+settings_shortcodes_menu_bullets_enable: 0
+settings_shortcodes_animate_enable: 0
+settings_mobile_blocks_breakpoint_group: at_core.simple
+settings_mobile_block_show_bpwide_local_actions_block: 0
+settings_mobile_block_hide_bpwide_local_actions_block: 0
+settings_mobile_block_show_bpwide_local_tasks_block: 0
+settings_mobile_block_hide_bpwide_local_tasks_block: 0
+settings_mobile_block_show_bpwide_help_block: 0
+settings_mobile_block_hide_bpwide_help_block: 0
+settings_mobile_block_show_bpwide_search_form_block: 0
+settings_mobile_block_hide_bpwide_search_form_block: 0
+settings_mobile_block_show_bpwide_system_branding_block: 0
+settings_mobile_block_hide_bpwide_system_branding_block: 0
+settings_mobile_block_show_bpwide_system_breadcrumb_block: 0
+settings_mobile_block_hide_bpwide_system_breadcrumb_block: 0
+settings_mobile_block_show_bpwide_system_main_block: 0
+settings_mobile_block_hide_bpwide_system_main_block: 0
+settings_mobile_block_show_bpwide_system_messages_block: 0
+settings_mobile_block_hide_bpwide_system_messages_block: 0
+settings_mobile_block_show_bpwide_page_title_block: 0
+settings_mobile_block_hide_bpwide_page_title_block: 0
+settings_mobile_block_show_bpwide_system_menu_block_account: 0
+settings_mobile_block_hide_bpwide_system_menu_block_account: 0
+settings_mobile_block_show_bpwide_system_menu_block_footer: 0
+settings_mobile_block_hide_bpwide_system_menu_block_footer: 0
+settings_mobile_block_show_bpwide_system_menu_block_main: 0
+settings_mobile_block_hide_bpwide_system_menu_block_main: 0
+settings_mobile_block_show_bpwide_system_menu_block_tools: 0
+settings_mobile_block_hide_bpwide_system_menu_block_tools: 0
+settings_mobile_block_show_bpwide_user_login_block: 0
+settings_mobile_block_hide_bpwide_user_login_block: 0
+settings_mobile_block_show_bptablet-isolate_local_actions_block: 0
+settings_mobile_block_hide_bptablet-isolate_local_actions_block: 0
+settings_mobile_block_show_bptablet-isolate_local_tasks_block: 0
+settings_mobile_block_hide_bptablet-isolate_local_tasks_block: 0
+settings_mobile_block_show_bptablet-isolate_help_block: 0
+settings_mobile_block_hide_bptablet-isolate_help_block: 0
+settings_mobile_block_show_bptablet-isolate_search_form_block: 0
+settings_mobile_block_hide_bptablet-isolate_search_form_block: 0
+settings_mobile_block_show_bptablet-isolate_system_branding_block: 0
+settings_mobile_block_hide_bptablet-isolate_system_branding_block: 0
+settings_mobile_block_show_bptablet-isolate_system_breadcrumb_block: 0
+settings_mobile_block_hide_bptablet-isolate_system_breadcrumb_block: 0
+settings_mobile_block_show_bptablet-isolate_system_main_block: 0
+settings_mobile_block_hide_bptablet-isolate_system_main_block: 0
+settings_mobile_block_show_bptablet-isolate_system_messages_block: 0
+settings_mobile_block_hide_bptablet-isolate_system_messages_block: 0
+settings_mobile_block_show_bptablet-isolate_page_title_block: 0
+settings_mobile_block_hide_bptablet-isolate_page_title_block: 0
+settings_mobile_block_show_bptablet-isolate_system_menu_block_account: 0
+settings_mobile_block_hide_bptablet-isolate_system_menu_block_account: 0
+settings_mobile_block_show_bptablet-isolate_system_menu_block_footer: 0
+settings_mobile_block_hide_bptablet-isolate_system_menu_block_footer: 0
+settings_mobile_block_show_bptablet-isolate_system_menu_block_main: 0
+settings_mobile_block_hide_bptablet-isolate_system_menu_block_main: 0
+settings_mobile_block_show_bptablet-isolate_system_menu_block_tools: 0
+settings_mobile_block_hide_bptablet-isolate_system_menu_block_tools: 0
+settings_mobile_block_show_bptablet-isolate_user_login_block: 0
+settings_mobile_block_hide_bptablet-isolate_user_login_block: 0
+settings_mobile_block_show_bpmobile_local_actions_block: 0
+settings_mobile_block_hide_bpmobile_local_actions_block: 0
+settings_mobile_block_show_bpmobile_local_tasks_block: 0
+settings_mobile_block_hide_bpmobile_local_tasks_block: 0
+settings_mobile_block_show_bpmobile_help_block: 0
+settings_mobile_block_hide_bpmobile_help_block: 0
+settings_mobile_block_show_bpmobile_search_form_block: 0
+settings_mobile_block_hide_bpmobile_search_form_block: 0
+settings_mobile_block_show_bpmobile_system_branding_block: 0
+settings_mobile_block_hide_bpmobile_system_branding_block: 0
+settings_mobile_block_show_bpmobile_system_breadcrumb_block: 0
+settings_mobile_block_hide_bpmobile_system_breadcrumb_block: 0
+settings_mobile_block_show_bpmobile_system_main_block: 0
+settings_mobile_block_hide_bpmobile_system_main_block: 0
+settings_mobile_block_show_bpmobile_system_messages_block: 0
+settings_mobile_block_hide_bpmobile_system_messages_block: 0
+settings_mobile_block_show_bpmobile_page_title_block: 0
+settings_mobile_block_hide_bpmobile_page_title_block: 0
+settings_mobile_block_show_bpmobile_system_menu_block_account: 0
+settings_mobile_block_hide_bpmobile_system_menu_block_account: 0
+settings_mobile_block_show_bpmobile_system_menu_block_footer: 0
+settings_mobile_block_hide_bpmobile_system_menu_block_footer: 0
+settings_mobile_block_show_bpmobile_system_menu_block_main: 0
+settings_mobile_block_hide_bpmobile_system_menu_block_main: 0
+settings_mobile_block_show_bpmobile_system_menu_block_tools: 0
+settings_mobile_block_hide_bpmobile_system_menu_block_tools: 0
+settings_mobile_block_show_bpmobile_user_login_block: 0
+settings_mobile_block_hide_bpmobile_user_login_block: 0
+settings_slideshow_count: '1'
+settings_slideshow_0_enable: 1
+settings_slideshow_0_animation: fade
+settings_slideshow_0_direction: horizontal
+settings_slideshow_0_smoothheight: 0
+settings_slideshow_0_slideshowspeed: '4000'
+settings_slideshow_0_animationspeed: '600'
+settings_slideshow_0_controlnav: 1
+settings_slideshow_0_directionnav: 1
+settings_slideshow_0_as_carousel: 0
+settings_slideshow_0_itemwidth: '300'
+settings_slideshow_0_itemmargin: '0'
+settings_slideshow_0_minitems: '2'
+settings_slideshow_0_maxitems: '4'
+settings_slideshow_0_move: '1'
+settings_slideshow_0_pauseonaction: 1
+settings_slideshow_0_pauseonhover: 0
+settings_slideshow_0_animationloop: 1
+settings_slideshow_0_reverse: 0
+settings_slideshow_0_randomize: 0
+settings_slideshow_0_autostart: 1
+settings_slideshow_0_initdelay: ''
+settings_slideshow_0_easing: swing
+settings_slideshow_0_usecss: 0
+settings_slideshow_0_touch: 1
+settings_slideshow_0_video: 0
+settings_slideshow_0_prevtext: Previous
+settings_slideshow_0_nexttext: Next
+settings_slideshow_0_slideshow_class: .adaptive-base-theme-slideshow-0
+settings_slideshow_0_selector: '.slides > li'
+slideshow_markup: "<div class=\"flexslider loading adaptive-base-theme-slideshow-0\">\r\n  <ul class=\"slides\">\r\n    <li>\r\n      <img src=\"/themes/adaptive_base_theme/images/slides/test-slide-1.png\" alt=\"Test slide one\" />\r\n      <p class=\"flex-caption\">Test slide one</p>\r\n    </li>\r\n    <li>\r\n      <img src=\"/themes/adaptive_base_theme/images/slides/test-slide-2.png\" alt=\"Test slide two\" />\r\n      <p class=\"flex-caption\">Test slide two</p>\r\n    </li>\r\n    <li>\r\n      <img src=\"/themes/adaptive_base_theme/images/slides/test-slide-3.png\" alt=\"Test slide three\" />\r\n      <p class=\"flex-caption\">Test slide three</p>\r\n    </li>\r\n  </ul>\r\n</div>"
+settings_custom_css: '/* Custom CSS */'
+settings_mimic_enabled: 1
+settings_responsive_tables: 1
+settings_png_logo: 0
+settings_breadcrumb_label: 0
+settings_breadcrumb_label_value: 'You are here:'
+settings_breadcrumb_home: 0
+settings_breadcrumb_home_alone: 1
+settings_breadcrumb_title: 0
+settings_breadcrumb_item_length: '32'
+settings_breadcrumb_separator: ''
+settings_search_block_hide_submit: 0
+settings_search_block_placeholder_text: ''
+settings_login_block_placeholder_labels: 0
+settings_horizontal_login_block: 0
+settings_login_block_remove_links: 0
+settings_comments_hide_title: 0
+settings_views_hide_feedicon: 1
+settings_skip_link_target: block-adaptive_base_theme-content
+settings_attribution_toggle: 0
+settings_show_page_suggestions: 0
+settings_show_window_size: 0
+settings_enable_live_reload: 0
+settings_live_reload_port: '35729'
+settings_nuke_toolbar: 0
+settings_legacy_browser_polyfills: 0
+settings_layouts_form_open: 0
+settings_layouts_enable: 1
+settings_suggestions:
+  page: page
+table_layout_settings:
+  leaderboard:
+    layout:
+      settings_page_wide_leaderboard: ''
+      settings_page_tabletisolate_leaderboard: ''
+      settings_page_mobile_leaderboard: ''
+    weight:
+      settings_page_wide_leaderboard_weight: '1'
+      settings_page_tabletisolate_leaderboard_weight: '0'
+      settings_page_mobile_leaderboard_weight: '1'
+    hide:
+      settings_page_wide_leaderboard_hide: 0
+      settings_page_tabletisolate_leaderboard_hide: 0
+      settings_page_mobile_leaderboard_hide: 0
+  header:
+    layout:
+      settings_page_wide_header: twocol-6-6
+      settings_page_tabletisolate_header: ''
+      settings_page_mobile_header: ''
+    weight:
+      settings_page_wide_header_weight: '2'
+      settings_page_tabletisolate_header_weight: '1'
+      settings_page_mobile_header_weight: '2'
+    hide:
+      settings_page_wide_header_hide: 0
+      settings_page_tabletisolate_header_hide: 0
+      settings_page_mobile_header_hide: 0
+  navbar:
+    layout:
+      settings_page_wide_navbar: ''
+      settings_page_tabletisolate_navbar: ''
+      settings_page_mobile_navbar: ''
+    weight:
+      settings_page_wide_navbar_weight: '3'
+      settings_page_tabletisolate_navbar_weight: '2'
+      settings_page_mobile_navbar_weight: '3'
+    hide:
+      settings_page_wide_navbar_hide: 0
+      settings_page_tabletisolate_navbar_hide: 0
+      settings_page_mobile_navbar_hide: 0
+  highlighted:
+    layout:
+      settings_page_wide_highlighted: ''
+      settings_page_tabletisolate_highlighted: ''
+      settings_page_mobile_highlighted: ''
+    weight:
+      settings_page_wide_highlighted_weight: '4'
+      settings_page_tabletisolate_highlighted_weight: '3'
+      settings_page_mobile_highlighted_weight: '4'
+    hide:
+      settings_page_wide_highlighted_hide: 0
+      settings_page_tabletisolate_highlighted_hide: 0
+      settings_page_mobile_highlighted_hide: 0
+  features:
+    layout:
+      settings_page_wide_features: threecol-source-ordered-2-8-2
+      settings_page_tabletisolate_features: ''
+      settings_page_mobile_features: ''
+    weight:
+      settings_page_wide_features_weight: '5'
+      settings_page_tabletisolate_features_weight: '4'
+      settings_page_mobile_features_weight: '5'
+    hide:
+      settings_page_wide_features_hide: 0
+      settings_page_tabletisolate_features_hide: 0
+      settings_page_mobile_features_hide: 0
+  content_prefix:
+    layout:
+      settings_page_wide_content_prefix: ''
+      settings_page_tabletisolate_content_prefix: ''
+      settings_page_mobile_content_prefix: ''
+    weight:
+      settings_page_wide_content_prefix_weight: '6'
+      settings_page_tabletisolate_content_prefix_weight: '5'
+      settings_page_mobile_content_prefix_weight: '6'
+    hide:
+      settings_page_wide_content_prefix_hide: 0
+      settings_page_tabletisolate_content_prefix_hide: 0
+      settings_page_mobile_content_prefix_hide: 0
+  main:
+    layout:
+      settings_page_wide_main: threecol-source-ordered-3-6-3
+      settings_page_tabletisolate_main: ''
+      settings_page_mobile_main: ''
+    weight:
+      settings_page_wide_main_weight: '7'
+      settings_page_tabletisolate_main_weight: '6'
+      settings_page_mobile_main_weight: '7'
+    hide:
+      settings_page_wide_main_hide: 0
+      settings_page_tabletisolate_main_hide: 0
+      settings_page_mobile_main_hide: 0
+  content_suffix:
+    layout:
+      settings_page_wide_content_suffix: ''
+      settings_page_tabletisolate_content_suffix: ''
+      settings_page_mobile_content_suffix: ''
+    weight:
+      settings_page_wide_content_suffix_weight: '8'
+      settings_page_tabletisolate_content_suffix_weight: '7'
+      settings_page_mobile_content_suffix_weight: '8'
+    hide:
+      settings_page_wide_content_suffix_hide: 0
+      settings_page_tabletisolate_content_suffix_hide: 0
+      settings_page_mobile_content_suffix_hide: 0
+  subfeatures:
+    layout:
+      settings_page_wide_subfeatures: fourcol-3-3-3-3
+      settings_page_tabletisolate_subfeatures: ''
+      settings_page_mobile_subfeatures: ''
+    weight:
+      settings_page_wide_subfeatures_weight: '9'
+      settings_page_tabletisolate_subfeatures_weight: '8'
+      settings_page_mobile_subfeatures_weight: '9'
+    hide:
+      settings_page_wide_subfeatures_hide: 0
+      settings_page_tabletisolate_subfeatures_hide: 0
+      settings_page_mobile_subfeatures_hide: 0
+  footer:
+    layout:
+      settings_page_wide_footer: ''
+      settings_page_tabletisolate_footer: ''
+      settings_page_mobile_footer: ''
+    weight:
+      settings_page_wide_footer_weight: '10'
+      settings_page_tabletisolate_footer_weight: '9'
+      settings_page_mobile_footer_weight: '10'
+    hide:
+      settings_page_wide_footer_hide: 0
+      settings_page_tabletisolate_footer_hide: 0
+      settings_page_mobile_footer_hide: 0
+ts_name: ''
+settings_breakpoint_group_layout: at_core.simple
+settings_max_width_enable: 0
+settings_max_width_value: '75'
+settings_max_width_unit: em
+settings_max_width_enable_rows: 0
+settings_max_width_value_leaderboard: ''
+settings_max_width_unit_leaderboard: em
+settings_max_width_value_header: ''
+settings_max_width_unit_header: em
+settings_max_width_value_navbar: ''
+settings_max_width_unit_navbar: em
+settings_max_width_value_highlighted: ''
+settings_max_width_unit_highlighted: em
+settings_max_width_value_features: ''
+settings_max_width_unit_features: em
+settings_max_width_value_content_prefix: ''
+settings_max_width_unit_content_prefix: em
+settings_max_width_value_main: ''
+settings_max_width_unit_main: em
+settings_max_width_value_content_suffix: ''
+settings_max_width_unit_content_suffix: em
+settings_max_width_value_subfeatures: ''
+settings_max_width_unit_subfeatures: em
+settings_max_width_value_footer: ''
+settings_max_width_unit_footer: em
+settings_enable_backups: 0
+log: 'Log color scheme'
